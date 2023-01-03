@@ -14,3 +14,5 @@ The verify_twc_config.yml file has the necessary configuration settings.
 - The observations are stored in a similarly named file with parameter names that are exactly the same. Each file has one observation for each location for one hour and so are much smaller ~ 375kb.
 
 - Both the above mentioned functions extract information and store it in a dataframe that is then plotted. The plots are saved as a pdf file. The root mean square error is also calculated and it written into the title of the plot.
+
+- It is expected the user will have their own aws access credentials for the Kepler51 buckets
