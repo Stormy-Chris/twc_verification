@@ -1,0 +1,21 @@
+###############
+# This is the yaml configuration file to be used for Verify_twc.py 
+#
+# init_time : date time in format 'YYYY-MM-DD HH:MI'
+# id_code   : 4 digit Amazon code - eg 'LDJ5'
+# num_days  : the number of days worth of forecasts to extract/verify - 10 days is the maximum
+# num_hours : numboer of hours of forecast to extract/verify - default is 24 hours - but left as an option for finer scale verification
+# fields that are vefified are hardcoded into the Verify_twc_lib.py file
+# forecast_flag : to just plot the forecasts - not working
+# observations_flag : to just plot the observations - not working
+# plots_dir : location for storing of plots 
+################
+---
+init_time: '2022-12-23 00:00'
+id_code  : '[LDJ5,XPD1,DXT4]'  # this is just a sample list of id's 
+num_days : 10
+num_hours: 24 
+forecasts_flag: False # these currently cannot be plotted individually
+observations_flag: False # these currently cannot be plotted individually
+combined_flag: True
+plots_dir: 'path/to/directory/to/store/plots'
