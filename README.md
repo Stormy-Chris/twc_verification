@@ -1,7 +1,7 @@
 # twc_verification
-**Verification of The Weather Company forecasts**
+**Verification of The Weather Company (twc) forecasts**
 
-This repository stores the files used in performing a simple verification of the twc forecasts that are stored in the kepler51 aws S3 bucket with the corresponding observations.
+This repository stores the files used in performing a simple verification of the twc forecasts that are stored in the kepler51 aws S3 bucket with the corresponding observations. The forecasts and observations are retrieved using the TWC API.
 
 The verify_twc_config.yml file has the necessary configuration settings.
 
